@@ -31,7 +31,7 @@ only:
 
 before_script:
   - julia -e 'Pkg.init()'
-  - julia -e 'Pkg.clone("git@github.com:JuliaML/StochasticOptimization.jl")'
+  - julia -e 'Pkg.clone("https://github.com/JuliaML/StochasticOptimization.jl")'
 # # uncomment the following lines to override the default test script
 # script:
 #  - julia -e 'Pkg.clone(pwd()); Pkg.build("Nets"); Pkg.test("Nets"; coverage=true)'
